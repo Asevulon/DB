@@ -23,7 +23,7 @@ namespace DB
             data_on_work.CustomFormat = "dd.MM.yyyy HH:mm:ss";
         }
 
-        string together = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\asevu\\source\\repos\\DB\\Database1.mdf";
+        string together = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\asevu\\OneDrive\\Рабочий стол\\Новая папка\\Database1.mdf\";Integrated Security=True;Connect Timeout=30";
         private void Update_empl(string str)
         {
             string zaprSQL = "SELECT * FROM [Employee] INNER JOIN [Brigade] ON [Employee].Id_brigade = [Brigade].Id ";
